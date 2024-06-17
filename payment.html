@@ -110,6 +110,7 @@
         }
     </style>
     <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+    <script async src="https://js.stripe.com/v3/buy-button.js"></script>
 </head>
 <body>
     <header>
@@ -128,10 +129,26 @@
         <section id="pricing">
             <h2>Buy Tokens</h2>
             <div class="pricing-container">
-                <stripe-pricing-table
+                <stripe-buy-button
+                    buy-button-id="buy_btn_1PGRhjRYoI528lJeNd32fQCf"
+                    publishable-key="pk_live_51Oy0kSRYoI528lJe6cFqqu2bsfCWvMwuMBPwuEotTw16Mjq0mIUWZ67CUciGogoxNAFiHaQSsx1jGYlv29A53XCe00254IcgsD">
+                </stripe-buy-button>
+                <stripe-buy-button
+                    buy-button-id="buy_btn_1PGRmrRYoI528lJefi0sfoba"
+                    publishable-key="pk_live_51Oy0kSRYoI528lJe6cFqqu2bsfCWvMwuMBPwuEotTw16Mjq0mIUWZ67CUciGogoxNAFiHaQSsx1jGYlv29A53XCe00254IcgsD">
+                </stripe-buy-button>
+                <stripe-buy-button
+                    buy-button-id="buy_btn_1PGRs3RYoI528lJeejsSnXrD"
+                    publishable-key="pk_live_51Oy0kSRYoI528lJe6cFqqu2bsfCWvMwuMBPwuEotTw16Mjq0mIUWZ67CUciGogoxNAFiHaQSsx1jGYlv29A53XCe00254IcgsD">
+                </stripe-buy-button>
+                <stripe-buy-button
+                    buy-button-id="buy_btn_1PGRPzRYoI528lJesGsUKcmR"
+                    publishable-key="pk_live_51Oy0kSRYoI528lJe6cFqqu2bsfCWvMwuMBPwuEotTw16Mjq0mIUWZ67CUciGogoxNAFiHaQSsx1jGYlv29A53XCe00254IcgsD"></stripe-buy-button>
+                </stripe-buy-button>
+                <!-- <stripe-pricing-table
                     pricing-table-id="prctbl_1PGIquRYoI528lJej9n4oc7w"
                     publishable-key="pk_live_51Oy0kSRYoI528lJe6cFqqu2bsfCWvMwuMBPwuEotTw16Mjq0mIUWZ67CUciGogoxNAFiHaQSsx1jGYlv29A53XCe00254IcgsD">
-                </stripe-pricing-table>
+                </stripe-pricing-table> -->
             </div>
         </section>
         <section id="demo">
@@ -139,8 +156,8 @@
             <p>Watch the video below to see how the token system works and how to use the /player lookup command.</p>
             <div class="images">
                 <h3>Example Images</h3>
-                <img src="assets/img/image1.png" alt="Example 1">
-                <img src="assets/img/image2.png" alt="Example 2">
+                <img src="image1.png" alt="Example 1">
+                <img src="image2.png" alt="Example 2">
             </div>
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/jkNby_FEhfA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
